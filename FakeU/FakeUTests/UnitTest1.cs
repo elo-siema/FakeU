@@ -11,6 +11,7 @@ namespace FakeUTests
         {
             Assert.IsTrue(true);
             //zmiana
+            //zmiana2
         }
     }
 }
