@@ -7,11 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeU", "FakeU\FakeU.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeUAgent", "FakeUAgent\FakeUAgent.csproj", "{D2755612-65AB-46BA-9657-AA2561C232AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakeUFrontend", "FakeUFrontend", "{5A6EB195-2F6E-4DB2-913B-14D25018F903}"
-	ProjectSection(SolutionItems) = preProject
-		index.html = index.html
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeUTests", "FakeUTests\FakeUTests.csproj", "{598B28D2-053F-46FE-8BA9-20793CFE9094}"
 EndProject
 Global
