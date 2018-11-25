@@ -13,13 +13,23 @@ namespace FakeUAgent
         public int id;
         public Uri uri;
 
-        private string _desc;
+        public string Desc { private get; set; }
 
-        public HashSet<string> descKeywords
+        public Listing(string title, decimal price, int id, Uri uri, string desc)
+        {
+            this.title = title;
+            this.price = price;
+            this.id = id;
+            this.uri = uri;
+            Desc = desc;
+        }
+        
+
+        public HashSet<string> DescKeywords
         {
             get
             {
-                var charArr = _desc
+                var charArr = Desc
                     .ToLower()
                     .Where((e) => Regex.IsMatch(e.ToString(), "[a-z|\\s]"))
                     .ToArray();

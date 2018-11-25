@@ -9,6 +9,5 @@ namespace FakeUAgent
         public List<Listing> listings;
         public string userName;
         public string id;
-        public string phone;
     }
 }

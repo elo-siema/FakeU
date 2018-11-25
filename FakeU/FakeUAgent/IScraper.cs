@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FakeUAgent
 {
     public interface IScraper
     {
-        Listing Scrape(Uri uri);
+        Task<Listing> Scrape(Uri uri);
     }
 }
